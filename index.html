@@ -174,7 +174,6 @@
             <p class="ti-p">成绩单</p>
             <p class="fen"></p>
         </div>
-        <button type="button" class="btn again">再来一次</button>
     </div>
 </body>
 <script>
@@ -190,19 +189,7 @@ $(function () {
         var fen = num + "分";
         $(".fen").text(fen);
     })
-    $(".again").click(function () {
-        refresh();
-    })
-    function refresh() {
-        var random = Math.floor((Math.random() * 10000) + 1);
-        var url = decodeURI(window.location.href);
-        if (url.indexOf('?') < 0) {
-            url = url + "?random" + random;
-        } else {
-            url = url.substr(0, url.indexOf('?random')) + "?random" + random;
-        }
-        window.location.href = url;
-    }
+    
 })
 </script>
 </html>
