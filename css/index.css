@@ -12,58 +12,58 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  font-size: 0.4375rem;
+  font-size: 14px;
 }
 .answer-content {
-  padding: 0.3125rem;
+  padding: 20px;
 }
 .answer-title {
-  font-size: 0.4375rem;
+  font-size:18px;
 }
 .radio {
-  width: 0.5625rem;
-  height: 0.5625rem;
-  top: 0.125rem;
+  width: 20px;
+  height: 20px;
+  top: 5px;
   position: relative;
 }
 .answer-list {
-  margin-top: 0.78125rem;
-  margin-bottom: 0.78125rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .p-a {
-  margin-top: 0.234375rem;
+  margin-top: 10px;
 }
 .footer {
   text-align: center;
-  margin-top: 0.78125rem;
-  margin-bottom: 0.78125rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .btn {
-  width: 2.8125rem;
-  height: 1.015625rem;
+  width: 120px;
+  height: 40px;
   background: #428BCA;
   ext-decoration: none;
   text-align: center;
   border: 1px solid #428BCA;
   color: white;
-  font-size: 0.4375rem;
+  font-size: 14px;
   border-radius: 4px;
 }
 .ti-box {
   text-align: center;
-  padding-top: 0.78125rem;
+  padding-top: 10px;
   display: none;
 }
 .ti-body {
-  font-size: 0.4375rem;
+  font-size: 16px;
 }
 .fen {
   color: red;
-  font-size: 0.75rem;
+  font-size: 18px;
 }
 .ti-body p {
-  margin-top: 0.78125rem;
+  margin-top: 20px;
 }
 .again {
-  margin-top: 0.78125rem;
+  margin-top:20px;
 }
